@@ -12,8 +12,6 @@ The demo setup consist of the following components, running inside the `ads-acc`
 | origin-client.acc.ads		| 83.96.243.188 | Origin Client	| v3.11         | command line tools
 | origin-nfs.acc.ads 		| 83.96.243.127 | Shared storage| n/a           | NFS
 
-`Note`: demo setup is using a public IP address scheme, protected by CloudVPS security-group `openshift` and currently only accessible from within the Gemeente Amsterdam `194.13.133.0/29` network.
-
 ### Using the OpenShift Client
 
 In order to create a new application, login to `origin-client.acc.ads` using your own CloudVPS SSH-key :
